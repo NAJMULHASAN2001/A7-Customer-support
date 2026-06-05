@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+.bgimg1{
+    background-image: url('./assets/vector1.png');
+    background-size: cover;
+      background-position: center;
+
+}
+.bgimg2{
+  background-image: url('./assets/vector2.png');
+  background-size: cover;
+      background-position: center;
+}
