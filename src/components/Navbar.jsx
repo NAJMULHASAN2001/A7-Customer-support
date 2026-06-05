@@ -2,11 +2,11 @@
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm container mx-auto">
-            <div className="flex-1">
+        <div className="md:navbar bg-base-100 shadow-sm md:container mx-auto justify-between">
+            <div className="">
                 <a className="btn btn-ghost text-xl">CS — Ticket System</a>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col md:flex-row md:items-center gap-3 ml-5 md:ml-0 ">
                 <a href="">Home</a>
                 <a href="">Faq</a>
                 <a href="">Change Log</a>

@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
        <>
-     <section className="bg-black text-white">
+     <section className="bg-black text-white hidden">
          <div className="grid grid-cols-5 gap-30 p-15 mt-10">
           <div>
             <h1>CS — Ticket System</h1>
